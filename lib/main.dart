@@ -1,3 +1,4 @@
+import 'package:financial_management/dashboard.dart';
 import 'package:financial_management/screens/calendar.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const GetMaterialApp(
-      home: CalendarScreen(),
+      home: DashboardScreen(),
     );
   }
 }
